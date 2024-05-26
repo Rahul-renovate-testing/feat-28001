@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["lodash"],
-      "sourceUrl": "https://google.com"
+      "customChangelogUrl": "https://google.com"
     }
   ]
 }
