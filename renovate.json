@@ -8,7 +8,7 @@
     },
     {
       "matchBaseBranches": ["main"],
-      "addLabels": "main-branch"
+      "addLabels": ["main-branch"]
     }
   ]
 }
