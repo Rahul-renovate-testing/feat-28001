@@ -1,3 +1,9 @@
 {
-  "$schema": "https://docs.renovate.com/renovate-schema.json"
+  "$schema": "https://docs.renovate.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackageNames": ["lodash"],
+      "sourceUrl": "https://google.com"
+    }
+  ]
 }
