@@ -1,9 +1,14 @@
 {
   "$schema": "https://docs.renovate.com/renovate-schema.json",
+  "baseBranches": ["main"],
   "packageRules": [
     {
       "matchPackageNames": ["lodash"],
       "customChangelogUrl": "https://google.com"
+    },
+    {
+      "matchBaseBranches": ["main"],
+      "addLabels": "main-branch"
     }
   ]
 }
